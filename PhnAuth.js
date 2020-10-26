@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button, TextInput } from 'react-native';
 import auth from '@react-native-firebase/auth';
 
-function App() {
+const App = () => {
   // If null, no SMS has been sent
   const [confirm, setConfirm] = useState(null);
 
