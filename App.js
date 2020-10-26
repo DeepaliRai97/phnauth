@@ -15,7 +15,7 @@ import RNImageToPdf from 'react-native-image-to-pdf';
 import Pdf from 'react-native-pdf';
 var RNFS = require('react-native-fs');
 
-const App = (props) => {
+const App = () => {
   const ReusableButton = (props) => {
     const {txtStyle, title, style, onPress} = props;
     return (
